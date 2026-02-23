@@ -8,11 +8,11 @@ int length = 10;
 
 // remove duplicate array
 
-for(int i = 0 ; i<length ;i++){
+for(int i = 0 ; i<length ;i++){     // 
     for(int j = i+1 ; j<length; ){
-        if( arr[i] == arr[j]){
-            for(int k = j ; k<length ; k++){
-                arr[k] == arr[k+1];
+        if( arr[i] == arr[j]){     // if matching is not found so they go else condition otherwise they go if conditiion
+            for(int k = j ; k<length ; k++){  //5 
+                arr[k] = arr[k+1]; // 
             }
             length --;
 
