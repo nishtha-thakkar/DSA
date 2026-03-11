@@ -28,8 +28,10 @@ int main(){
         }
 
        }
-        cout << "closeat value : " << closeValue  ;
+       
 
 
 
+}
+ cout << "closeat value : " << closeValue  ;
 }

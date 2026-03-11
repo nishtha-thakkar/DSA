@@ -1,15 +1,24 @@
 # include <iostream>
 using namespace std;
+ // insert , delete and update array
 
-// update the array
+//update the array
 // int main(){
-//     // insert , delete and update array
+//    
 // int arr[10]= {10 , 20 , 30 , 40 ,50};
 // int index = 3;
 // int value = 500;
 // int size = 5 ;
 
 // arr[index] = value;
+
+// update the array with the help of loop
+
+// for(int i = 0 ; i<size ; i++){
+//     if(i == index ){
+//         arr[i] = value;
+//     }
+// }
 
 
 // for(int i = 0 ; i<size ; i++){
@@ -46,20 +55,20 @@ using namespace std;
 
 // delete the array
 
-int main(){
-    int arr[10] = {10 , 20 , 30 , 40 ,50};
-    int index = 3;
-    // int value = 500;
-    int size = 5;
+// int main(){
+//     int arr[10] = {10 , 20 , 30 , 40 ,50};
+//     int index = 3;
+//     // int value = 500;
+//     int size = 5;
 
-    for(int i = index ; i<size ; i++){
-        arr[i] = arr[i+1];
-    };
+//     for(int i = index ; i<size ; i++){
+//         arr[i] = arr[i+1];
+//     };
 
-    size--;
+//     size--;
 
-    for(int i = 0 ; i<size ; i++){
-        cout << arr[i] << " ";
-    }
+//     for(int i = 0 ; i<size ; i++){
+//         cout << arr[i] << " ";
+//     }
 
-}
+// }
