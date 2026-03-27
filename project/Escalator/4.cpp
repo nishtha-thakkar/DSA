@@ -88,7 +88,8 @@ public:
 
 int main()
 {
-    BaseStack *b = new Stack(20);
+    // BaseStack* b = new Stack(20);
+    Stack  b(10);
 
     int choice;
 
@@ -108,27 +109,27 @@ int main()
         switch (choice)
         {
         case 1:
-            b->Push();
+            b.Push();
             break;
 
         case 2:
-            b->display();
+            b.display();
             break;
 
         case 3:
-            b->Pop();
+            b.Pop();
             break;
 
         case 4:
-            b->peek();
+            b.peek();
             break;
 
         case 5:
-            cout << (b->isEmpty() ? "Stack is Empty\n" : "Not Empty\n");
+            b.isEmpty();
             break;
 
         case 6:
-            cout << (b->isFull() ? "Stack is Full\n" : "Not Full\n");
+           b.isFull();
             break;
 
         case 7:
